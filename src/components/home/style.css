@@ -1,0 +1,55 @@
+.vidButton {
+  background-color: #66659e !important;
+  border: 4px solid #000000 !important;
+  display: inline-block !important;
+  cursor: pointer !important;
+  color: #ffffff !important;
+
+  padding: 10px 10px !important;
+  text-decoration: none !important;
+  text-shadow: 0px 0px 0px #22ff00 !important;
+}
+.vidButton:hover {
+  background-color: #e6d131 !important;
+}
+.vidButton:active {
+  position: relative !important;
+  top: 1px !important;
+}
+
+.fontMK {
+  font-family: "Chewy", cursive;
+  color: black;
+  font-size: 110px;
+  -webkit-text-fill-color: #e6d031; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 7px;
+  -webkit-text-stroke-color: #66659e;
+}
+
+.fontAll {
+  font-family: "Chewy", cursive;
+  color: black;
+  -webkit-text-fill-color: #e6d031; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #66659e;
+}
+
+.allButton {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 5px solid #e6d131;
+  display: inline-block;
+  cursor: pointer;
+  color: #66659e;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  padding: 0px 30px;
+  text-decoration: none;
+}
+.allButton:hover {
+  background-color: #171717;
+}
+.allButton:active {
+  position: relative;
+  top: 1px;
+}
