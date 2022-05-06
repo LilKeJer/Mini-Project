@@ -61,7 +61,7 @@ function index() {
         </div>
 
         <div className="row text-center ">
-          <div className="col-6 ">
+          <div className="col-6 fontAll2">
             <p style={{ fontSize: "74px" }}>OFFICIAL</p>
             <p style={{ fontSize: "66px" }}>MUSIC</p>
             <p style={{ fontSize: "54px" }}>VIDEO</p>
@@ -154,7 +154,7 @@ function index() {
               ></button>
             </div>
           </div>
-          <p className=" " style={{ fontSize: "64px" }}>
+          <p className="fontAll2 " style={{ fontSize: "64px" }}>
             TOUR TATA SURYA
           </p>
           <div
