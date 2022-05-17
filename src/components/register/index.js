@@ -8,9 +8,8 @@ import "../../assets/styles.css";
 function Index() {
   const navigate = useNavigate();
   TabTitle("Register");
-  const [addUser, { data: dataTour, loading: loadingAdd }] =
-    useMutation(TAMBAH_USER);
-  const [addMusicProfile, {}] = useMutation(TAMBAH_MUSIC_PROFILE);
+  const [addUser, { data: dataTour }] = useMutation(TAMBAH_USER);
+  const [addMusicProfile] = useMutation(TAMBAH_MUSIC_PROFILE);
 
   const baseRegister = {
     nama: "",

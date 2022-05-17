@@ -22,8 +22,8 @@ function Index() {
       },
     }
   );
-  const [editLove, { loading: loadingLove }] = useMutation(LOVE);
-  const [deleteTour, { data: deleteData, loading: loadingDTour }] = useMutation(
+  const [editLove] = useMutation(LOVE);
+  const [deleteTour, { data: deleteData }] = useMutation(
     DELETE_INTERESTED_TOUR
   );
 

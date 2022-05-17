@@ -38,6 +38,8 @@ function ListInterestedSong({ interested_song, ubahLove, loadingSong }) {
                     </div>
                   </div>
                 );
+              } else {
+                return <div></div>;
               }
             })}
           </>
@@ -79,6 +81,8 @@ function ListInterestedSong({ interested_song, ubahLove, loadingSong }) {
                     </div>
                   </div>
                 );
+              } else {
+                return <div></div>;
               }
             })}
           </>

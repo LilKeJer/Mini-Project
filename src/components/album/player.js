@@ -25,7 +25,7 @@ function Player(props) {
       console.log(temp);
       return temp;
     });
-  }, [props.play]);
+  });
 
   const SkipSong = (forwards = true) => {
     if (forwards) {

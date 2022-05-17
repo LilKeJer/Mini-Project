@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { TabTitle } from "../../utils/GeneralFunctions";
 import Navbar from "../navbar";
 import ListTour from "./listTour";
@@ -9,8 +9,7 @@ import { useQuery, useMutation } from "@apollo/client";
 function Index() {
   TabTitle("Tour");
   const { data, loading } = useQuery(DAFTAR_TOUR);
-  const [addInterestedTour, { data: dataTour, loading: loadingAdd }] =
-    useMutation(TAMBAH_INTERESTED_TOUR);
+  const [addInterestedTour] = useMutation(TAMBAH_INTERESTED_TOUR);
   const tambahInterestedTour = (id) => {
     const user = localStorage.getItem("user");
     if (user) {
