@@ -7,6 +7,7 @@ import Profile from "./components/profile";
 import Errorpage from "./components/error";
 import Login from "./components/login/login";
 import ProtectedRoutes from "./ProtectedRoutes";
+import Register from "./components/register";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
         </Route>
 
         <Route path="/Login" element={<Login />} />
-
+        <Route path="/Register" element={<Register />} />
         <Route path="*" element={<Errorpage />} />
       </Routes>
     </BrowserRouter>

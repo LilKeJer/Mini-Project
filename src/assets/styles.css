@@ -251,6 +251,16 @@
 
 /* Profile */
 /* Register*/
+.homeButton {
+  background: none;
+
+  border: none;
+
+  color: inherit;
+
+  padding: none;
+}
+
 /*Login*/
 .inputStyle {
   font-size: 16px;
