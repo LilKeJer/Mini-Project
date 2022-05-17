@@ -1,3 +1,4 @@
+/* Home */
 .vidButton {
   background-color: #66659e !important;
   border: 4px solid #000000 !important;
@@ -60,3 +61,120 @@
   position: relative;
   top: 1px;
 }
+
+/* Album */
+.albumFont {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.playerButton {
+  background: none;
+
+  border: none;
+
+  color: inherit;
+
+  padding: none;
+  width: 100px;
+  height: 100px;
+}
+
+.player {
+  color: white;
+  font-size: 30px;
+}
+.player:hover {
+  color: rgb(204, 177, 177);
+}
+.player:active {
+  position: relative;
+  left: 5px;
+  right: 5px;
+  right: 5px;
+  left: 5px;
+}
+
+.progress3 {
+  width: auto;
+  height: 10.6px;
+  border-radius: 9.6px;
+  color: #e6d031;
+  border: 1px solid;
+  position: relative;
+}
+
+.progress3::before {
+  content: "";
+  position: absolute;
+  margin: 1px;
+  inset: 0 100% 0 0;
+  border-radius: inherit;
+  background: currentColor;
+  animation: progress-pf82op 1.2s infinite;
+}
+
+@keyframes progress-pf82op {
+  100% {
+    inset: 0;
+  }
+}
+
+.playerButton2 {
+  background: none;
+
+  border: none;
+
+  color: inherit;
+
+  padding: none;
+  width: 50px;
+  height: 50px;
+}
+
+.progress2 {
+  width: auto;
+  height: 10.6px;
+  border-radius: 9.6px;
+  color: #e6d031;
+  border: 1px solid;
+  position: relative;
+}
+
+.progress2::before {
+  content: "";
+  position: absolute;
+  margin: 1px;
+  inset: 0 0 0 100%;
+  border-radius: inherit;
+  background: currentColor;
+  animation: progress2-pf82op 1.2s infinite;
+}
+
+@keyframes progress2-pf82op {
+  100% {
+    inset: 0;
+  }
+}
+
+.player2 {
+  color: #171717;
+  font-size: 30px;
+}
+.player2:hover {
+  color: #e6d031;
+}
+.player2:active {
+  position: relative;
+  left: 5px;
+  right: 5px;
+  right: 5px;
+  left: 5px;
+}
+
+/* Profile */
+/* Tour */
+/* Error */
+/* Navbar*/
+/* Register*/
