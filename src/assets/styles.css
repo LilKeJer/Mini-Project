@@ -250,6 +250,60 @@
 }
 
 /* Profile */
+.love {
+  color: red;
+  font-size: 20px;
+}
+.love:hover {
+  color: rgb(226, 104, 104);
+}
+.love:active {
+  position: relative;
+  left: 5px;
+  right: 5px;
+  right: 5px;
+  left: 5px;
+}
+
+.notLove {
+  color: white;
+  font-size: 20px;
+}
+.notLove:hover {
+  color: rgb(204, 177, 177);
+}
+.notLove:active {
+  position: relative;
+  left: 5px;
+  right: 5px;
+  right: 5px;
+  left: 5px;
+}
+.loveButton {
+  background: none;
+
+  border: none;
+
+  color: inherit;
+
+  padding: none;
+}
+
+.dots {
+  width: 56px;
+  height: 13.4px;
+  background: radial-gradient(circle closest-side, #e6d031 90%, #0000) 0 0/33%
+    100% space;
+  clip-path: inset(0 100% 0 0);
+  animation: dots-e3xtdg 1.5s steps(4) infinite;
+}
+
+@keyframes dots-e3xtdg {
+  to {
+    clip-path: inset(0 -34% 0 0);
+  }
+}
+
 /* Register*/
 .homeButton {
   background: none;

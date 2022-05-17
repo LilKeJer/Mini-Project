@@ -1,6 +1,6 @@
 import React from "react";
 import { Navigate, Outlet } from "react-router-dom";
-
+import Login from "./components/login/login";
 const useAuth = () => {
   const user = localStorage.getItem("user");
   if (user) {
