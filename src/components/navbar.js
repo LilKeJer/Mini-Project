@@ -1,16 +1,16 @@
 import React from "react";
-import "./navStyle.css";
+
 import { Outlet, Link } from "react-router-dom";
+import "../assets/styles.css";
 
 function navbar() {
   return (
     <div>
       <nav
-        className="navbar navbar-expand-lg navbar-light "
+        className="navbar navbar-expand-lg navbar-light fixed-top"
         style={{
           // backgroundImage: `url(${Foto2})`,
           backgroundColor: "#E6D031",
-          height: "100px",
         }}
       >
         <div className="container-fluid">
