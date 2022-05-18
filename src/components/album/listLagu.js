@@ -14,7 +14,7 @@ function ListLagu({ daftar_lagu }) {
         return currentSongIndex + 1;
       }
     });
-  }, [currentSongIndex, songs.length]);
+  }, [currentSongIndex]);
   const [play, setPlay] = useState(0);
   return (
     <div>
